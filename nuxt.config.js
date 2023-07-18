@@ -1,10 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     typescript: false,
-
+    devServer: {
+        port: 5500
+    }, 
     app: {
         head: {
-            title: 'Sakai Vue',
+            title: 'Adminisantri',
             link: [
                 {
                     id: 'theme-css',
